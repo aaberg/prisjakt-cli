@@ -10,4 +10,6 @@ func main() {
 	var userFlags = GetUserFlags()
 
 	fmt.Println("Max number of results is", userFlags.maxNumberOfResults)
+
+	Search(userFlags, "samsung%20s8")
 }
